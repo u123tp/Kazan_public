@@ -8,6 +8,13 @@
  - ノンブロッキングキャッシュ
  - ノンブロッキングTLB
 
+## 環境
+```
+$ verilator --version
+Verilator 5.039 devel rev v5.038-19-gcefe1845d
+
+```
+
 ## デモ映像
  実行が重すぎるのでデモ映像 => https://www.youtube.com/watch?v=3dBjziGlqU8
 
