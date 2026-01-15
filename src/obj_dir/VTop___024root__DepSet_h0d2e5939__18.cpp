@@ -1,0 +1,4794 @@
+// Verilated -*- C++ -*-
+// DESCRIPTION: Verilator output: Design implementation internals
+// See VTop.h for the primary calling header
+
+#include "VTop__pch.h"
+#include "VTop___024root.h"
+
+VL_INLINE_OPT void VTop___024root___nba_sequent__TOP__47(VTop___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTop___024root___nba_sequent__TOP__47\n"); );
+    VTop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if (vlSelfRef.reset) {
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x20U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x20U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x21U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x21U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x22U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x22U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x23U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x23U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x24U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x24U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x25U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x25U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x26U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x26U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x27U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x27U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x28U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x28U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x29U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x29U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x2fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x2fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x30U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x30U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x31U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x31U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x32U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x32U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x33U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x33U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x34U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x34U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x35U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x35U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x36U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x36U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x37U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x37U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x38U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x38U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x39U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x39U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x3fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x3fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x40U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x40U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x41U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x41U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x42U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x42U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x43U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x43U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x44U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x44U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x45U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x45U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x46U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x46U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x47U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x47U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x48U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x48U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x49U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x49U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x4fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x4fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x50U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x50U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x51U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x51U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x52U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x52U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x53U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x53U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x54U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x54U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x55U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x55U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x56U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x56U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x57U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x57U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x58U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x58U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x59U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x59U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x5fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x5fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x60U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x60U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x61U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x61U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x62U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x62U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x63U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x63U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x64U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x64U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x65U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x65U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x66U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x66U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x67U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x67U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x68U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x68U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x69U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x69U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x6fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x6fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x70U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x70U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x71U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x71U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x72U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x72U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x73U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x73U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x74U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x74U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x75U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x75U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x76U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x76U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x77U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x77U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x78U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x78U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x79U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x79U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x7fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x7fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x80U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x80U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x81U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x81U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x82U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x82U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x83U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x83U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x84U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x84U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x85U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x85U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x86U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x86U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x87U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x87U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x88U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x88U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x89U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x89U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x8fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x8fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x90U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x90U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x91U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x91U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x92U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x92U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x93U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x93U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x94U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x94U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x95U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x95U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x96U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x96U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x97U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x97U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x98U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x98U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x99U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x99U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x9fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x9fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xa9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xa9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xaaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xaaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xabU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xabU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xacU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xacU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xadU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xadU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xaeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xaeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xafU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xafU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xb9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xb9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xbfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xbfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xc9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xc9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xcaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xcaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xcbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xcbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xcdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xcdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xcfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xcfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xd9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xd9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xdfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xdfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xe9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xe9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xeaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xeaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xedU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xedU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xeeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xeeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xefU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xefU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xf9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xf9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xfeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xfeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0xffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0xffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x100U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x100U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x101U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x101U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x102U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x102U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x103U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x103U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x104U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x104U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x105U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x105U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x106U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x106U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x107U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x107U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x108U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x108U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x109U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x109U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x10fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x10fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x110U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x110U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x111U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x111U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x112U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x112U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x113U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x113U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x114U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x114U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x115U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x115U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x116U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x116U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x117U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x117U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x118U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x118U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x119U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x119U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x11fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x11fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x120U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x120U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x121U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x121U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x122U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x122U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x123U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x123U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x124U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x124U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x125U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x125U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x126U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x126U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x127U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x127U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x128U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x128U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x129U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x129U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x12fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x12fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x130U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x130U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x131U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x131U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x132U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x132U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x133U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x133U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x134U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x134U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x135U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x135U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x136U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x136U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x137U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x137U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x138U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x138U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x139U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x139U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x13fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x13fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x140U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x140U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x141U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x141U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x142U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x142U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x143U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x143U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x144U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x144U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x145U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x145U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x146U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x146U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x147U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x147U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x148U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x148U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x149U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x149U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x14fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x14fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x150U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x150U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x151U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x151U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x152U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x152U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x153U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x153U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x154U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x154U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x155U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x155U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x156U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x156U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x157U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x157U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x158U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x158U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x159U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x159U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x15fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x15fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x160U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x160U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x161U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x161U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x162U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x162U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x163U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x163U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x164U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x164U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x165U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x165U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x166U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x166U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x167U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x167U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x168U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x168U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x169U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x169U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x16fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x16fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x170U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x170U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x171U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x171U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x172U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x172U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x173U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x173U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x174U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x174U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x175U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x175U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x176U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x176U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x177U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x177U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x178U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x178U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x179U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x179U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x17fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x17fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x180U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x180U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x181U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x181U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x182U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x182U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x183U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x183U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x184U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x184U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x185U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x185U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x186U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x186U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x187U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x187U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x188U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x188U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x189U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x189U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x18fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x18fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x190U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x190U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x191U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x191U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x192U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x192U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x193U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x193U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x194U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x194U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x195U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x195U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x196U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x196U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x197U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x197U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x198U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x198U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x199U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x199U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x19fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x19fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1a9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1a9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1aaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1aaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1abU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1abU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1acU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1acU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1adU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1adU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1aeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1aeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1afU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1afU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1b9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1b9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1baU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1baU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1bbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1bbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1bcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1bcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1bdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1bdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1beU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1beU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1bfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1bfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1c9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1c9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1caU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1caU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1cbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1cbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1cdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1cdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1cfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1cfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1d9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1d9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1daU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1daU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1dbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1dbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1dcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1dcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1deU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1deU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1dfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1dfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1e9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1e9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1eaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1eaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1edU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1edU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1eeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1eeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1efU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1efU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1f9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1f9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1faU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1faU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1fbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1fbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1fcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1fcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1fdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1fdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1feU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1feU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[0x1ffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[0x1ffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x20U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x20U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x21U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x21U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x22U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x22U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x23U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x23U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x24U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x24U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x25U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x25U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x26U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x26U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x27U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x27U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x28U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x28U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x29U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x29U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x2fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x2fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x30U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x30U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x31U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x31U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x32U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x32U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x33U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x33U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x34U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x34U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x35U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x35U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x36U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x36U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x37U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x37U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x38U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x38U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x39U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x39U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x3fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x3fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x40U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x40U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x41U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x41U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x42U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x42U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x43U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x43U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x44U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x44U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x45U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x45U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x46U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x46U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x47U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x47U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x48U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x48U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x49U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x49U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x4fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x4fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x50U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x50U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x51U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x51U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x52U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x52U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x53U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x53U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x54U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x54U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x55U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x55U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x56U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x56U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x57U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x57U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x58U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x58U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x59U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x59U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x5fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x5fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x60U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x60U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x61U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x61U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x62U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x62U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x63U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x63U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x64U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x64U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x65U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x65U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x66U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x66U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x67U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x67U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x68U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x68U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x69U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x69U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x6fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x6fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x70U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x70U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x71U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x71U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x72U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x72U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x73U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x73U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x74U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x74U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x75U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x75U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x76U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x76U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x77U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x77U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x78U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x78U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x79U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x79U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x7fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x7fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x80U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x80U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x81U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x81U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x82U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x82U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x83U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x83U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x84U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x84U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x85U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x85U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x86U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x86U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x87U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x87U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x88U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x88U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x89U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x89U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x8fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x8fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x90U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x90U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x91U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x91U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x92U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x92U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x93U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x93U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x94U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x94U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x95U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x95U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x96U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x96U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x97U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x97U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x98U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x98U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x99U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x99U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x9fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x9fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xa9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xa9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xaaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xaaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xabU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xabU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xacU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xacU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xadU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xadU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xaeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xaeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xafU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xafU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xb9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xb9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xbfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xbfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xc9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xc9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xcaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xcaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xcbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xcbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xcdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xcdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xcfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xcfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xd9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xd9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xdfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xdfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xe9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xe9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xeaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xeaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xedU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xedU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xeeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xeeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xefU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xefU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xf9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xf9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xfeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xfeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0xffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0xffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x100U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x100U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x101U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x101U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x102U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x102U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x103U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x103U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x104U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x104U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x105U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x105U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x106U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x106U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x107U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x107U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x108U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x108U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x109U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x109U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x10fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x10fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x110U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x110U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x111U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x111U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x112U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x112U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x113U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x113U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x114U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x114U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x115U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x115U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x116U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x116U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x117U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x117U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x118U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x118U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x119U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x119U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x11fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x11fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x120U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x120U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x121U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x121U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x122U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x122U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x123U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x123U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x124U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x124U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x125U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x125U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x126U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x126U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x127U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x127U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x128U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x128U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x129U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x129U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x12fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x12fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x130U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x130U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x131U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x131U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x132U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x132U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x133U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x133U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x134U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x134U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x135U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x135U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x136U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x136U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x137U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x137U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x138U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x138U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x139U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x139U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x13fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x13fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x140U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x140U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x141U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x141U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x142U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x142U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x143U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x143U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x144U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x144U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x145U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x145U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x146U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x146U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x147U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x147U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x148U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x148U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x149U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x149U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x14fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x14fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x150U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x150U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x151U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x151U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x152U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x152U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x153U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x153U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x154U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x154U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x155U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x155U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x156U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x156U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x157U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x157U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x158U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x158U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x159U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x159U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x15fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x15fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x160U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x160U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x161U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x161U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x162U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x162U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x163U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x163U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x164U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x164U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x165U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x165U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x166U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x166U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x167U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x167U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x168U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x168U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x169U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x169U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x16fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x16fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x170U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x170U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x171U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x171U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x172U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x172U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x173U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x173U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x174U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x174U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x175U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x175U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x176U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x176U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x177U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x177U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x178U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x178U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x179U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x179U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x17fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x17fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x180U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x180U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x181U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x181U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x182U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x182U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x183U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x183U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x184U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x184U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x185U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x185U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x186U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x186U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x187U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x187U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x188U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x188U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x189U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x189U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x18fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x18fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x190U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x190U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x191U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x191U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x192U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x192U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x193U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x193U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x194U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x194U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x195U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x195U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x196U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x196U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x197U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x197U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x198U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x198U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x199U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x199U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19aU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19bU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19cU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19dU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19eU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x19fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x19fU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1a9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1a9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1aaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1aaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1abU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1abU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1acU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1acU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1adU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1adU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1aeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1aeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1afU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1afU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1b9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1b9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1baU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1baU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1bbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1bbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1bcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1bcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1bdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1bdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1beU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1beU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1bfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1bfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1c9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1c9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1caU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1caU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1cbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1cbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ccU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1cdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1cdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ceU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1cfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1cfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1d9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1d9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1daU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1daU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1dbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1dbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1dcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1dcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ddU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1deU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1deU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1dfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1dfU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1e9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1e9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1eaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1eaU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ebU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ecU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1edU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1edU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1eeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1eeU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1efU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1efU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f0U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f1U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f2U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f3U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f4U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f5U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f6U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f7U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f8U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1f9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1f9U] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1faU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1faU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1fbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1fbU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1fcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1fcU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1fdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1fdU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1feU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1feU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[0x1ffU] = 0U;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[0x1ffU] = 0U;
+    } else {
+        IData/*31:0*/ __Vilp1;
+        __Vilp1 = 0U;
+        while ((__Vilp1 <= 0x1ffU)) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt[__Vilp1] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_next
+                [__Vilp1];
+            __Vilp1 = ((IData)(1U) + __Vilp1);
+        }
+        IData/*31:0*/ __Vilp2;
+        __Vilp2 = 0U;
+        while ((__Vilp2 <= 0x1ffU)) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt_prev[__Vilp2] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__1__KET____DOT__cb_data__DOT__lvt
+                [__Vilp2];
+            __Vilp2 = ((IData)(1U) + __Vilp2);
+        }
+        IData/*31:0*/ __Vilp3;
+        __Vilp3 = 0U;
+        while ((__Vilp3 <= 0x1ffU)) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt[__Vilp3] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_next
+                [__Vilp3];
+            __Vilp3 = ((IData)(1U) + __Vilp3);
+        }
+        IData/*31:0*/ __Vilp4;
+        __Vilp4 = 0U;
+        while ((__Vilp4 <= 0x1ffU)) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt_prev[__Vilp4] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk2__BRA__2__KET____DOT__cb_data__DOT__lvt
+                [__Vilp4];
+            __Vilp4 = ((IData)(1U) + __Vilp4);
+        }
+    }
+}
+
+VL_INLINE_OPT void VTop___024root___nba_sequent__TOP__48(VTop___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    VTop___024root___nba_sequent__TOP__48\n"); );
+    VTop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if (vlSelfRef.reset) {
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][0x3fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][1U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][2U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][3U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][4U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][5U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][6U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][7U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][8U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][9U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xaU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xbU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xcU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xdU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xeU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0xfU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x10U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x11U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x12U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x13U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x14U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x15U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x16U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x17U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x18U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x19U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x1fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x20U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x21U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x22U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x23U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x24U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x25U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x26U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x27U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x28U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x29U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x2fU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x30U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x31U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x32U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x33U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x34U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x35U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x36U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x37U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x38U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x39U] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3aU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3bU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3cU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3dU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3eU] = 0ULL;
+        vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][0x3fU] = 0ULL;
+    } else {
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_en
+            [0U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [0U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_en
+            [1U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram[1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                [1U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [0U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                 [0U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_en
+            [0U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [0U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_en
+            [1U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram[1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                [1U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [0U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                 [0U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [1U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                 [1U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                 [1U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_en
+            [0U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [0U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_en
+            [1U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram[1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                [1U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [0U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                 [0U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [1U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                 [1U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [2U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                 [2U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                 [2U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                 [2U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_en
+            [0U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [0U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[0U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [0U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_en
+            [1U]) {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [1U];
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram[1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_ram_idx[1U]] 
+                = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                [1U];
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [0U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                 [0U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [0U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][0U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [0U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[0U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [1U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                 [1U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [1U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][1U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [1U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[1U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [2U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                 [2U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [2U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][2U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [2U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[2U][1U] = 0ULL;
+        }
+        if (vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_en
+            [3U]) {
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                 [3U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__0__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                 [3U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__1__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                 [3U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__2__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+            }
+            if ((2U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                 [3U])) {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT____Vcellinp__genblk1__BRA__3__KET____DOT__cb_info__w_data
+                    [(1U & vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__bypass_table
+                      [3U])];
+            } else {
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [0U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+                vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] 
+                    = vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__ram
+                    [1U][3U][vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__cb_info_r_ram_idx
+                    [3U]];
+            }
+        } else {
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__0__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__1__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__2__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][0U] = 0ULL;
+            vlSelfRef.Top__DOT__cachesubsystem__DOT__l2cache__DOT__cb__DOT__genblk1__BRA__3__KET____DOT__cb_info__DOT__read_raw_data[3U][1U] = 0ULL;
+        }
+    }
+}

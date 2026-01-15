@@ -1,0 +1,4 @@
+# 概要
+/opt/spike/bin/spike -l --log-commits ./elf/rv64ui-v-add 2> spike_log.txt
+
+でspikeの実行結果を得る.

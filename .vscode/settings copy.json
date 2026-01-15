@@ -1,0 +1,48 @@
+{
+  "editor.formatOnSave": true,
+  "verilog.linting.linter": "verilator",
+  "verilog.linting.verilator.arguments": "-Wno-DECLFILENAME --unroll-count 300 --lint-only",
+  "verilog.languageServer.veribleVerilogLs.enabled": true,
+  "verilog.formatting.systemVerilog.formatter": "verible-verilog-format",
+  "platformSettings.autoLoad": true,
+  "platformSettings.platforms": {
+    "win32": {
+      "nodes": {
+        "workbench.colorCustomizations": {
+          "editor.background": "#e5e5d5",
+          "sideBar.background": "#eee8d5",
+          "sideBar.foreground": "#7d7d7d",
+          "activityBar.background": "#00512d",
+          "activityBar.foreground": "#ffffff",
+          "statusBar.background": "#00512d",
+          "statusBar.foreground": "#ffffff",
+          "tab.activeBackground": "#e0e0d0",
+          "titleBar.activeBackground": "#00512d",
+          "titleBar.activeForeground": "#ffffff"
+        },
+        "verilog.languageServer.veribleVerilogLs.path": "C:\\PROGRA~1\\verible\\verible-verilog-ls.exe",
+        "verilog.formatting.verilogFormat.path": "C:\\PROGRA~1\\verible\\verible-verilog-format.exe"
+      }
+    },
+    "linux": {
+      "nodes": {
+        "workbench.colorTheme": "Solarized Light",
+        "verilog.languageServer.veribleVerilogLs.path": "/tools/verible/bin/verible-verilog-ls",
+        "verilog.formatting.verilogFormat.path": "/tools/verible/bin/verible-verilog-format",
+        "verilog.formatting.veribleVerilogFormatter.arguments": "--module_net_variable_alignment=flush-left --max_search_states=100000"
+      }
+    }
+  },
+  "ctags-companion.command": "ctags -R --fields=+nKz --langmap=SystemVerilog:+.sv -R rtl /opt/uvm-1.2/src",
+  "ctags-companion.readtagsGoToDefinitionCommand": "readtags -en",
+  "ctags-companion.readtagsGoToSymbolInWorkspaceCommand": "readtags -enpi",
+  "ctags-companion.ctagsGoToSymbolInEditorCommand": "ctags --fields=+nKz -f -",
+  "files.associations": {
+    "any": "cpp",
+    "bitset": "cpp",
+    "memory": "cpp",
+    "random": "cpp",
+    "future": "cpp",
+    "optional": "cpp"
+  },
+}
