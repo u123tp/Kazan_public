@@ -1,0 +1,64 @@
+`timescale 1ns / 1ps
+
+module ram_1r1w_bram #(
+    parameter int unsigned RAM_WIDTH = 64,
+    parameter int unsigned RAM_DEPTH = 512,
+    parameter int unsigned RAM_IDX_WIDTH = $clog2(RAM_DEPTH)
+) (
+    input logic clock,
+
+    // 読みだdしポート
+    input logic r_en,
+    input logic [RAM_IDX_WIDTH-1:0] r_ram_idx,
+    output logic [RAM_WIDTH-1:0] r_data,
+
+    // 書き込みポート
+    input logic w_en,
+    input logic [RAM_IDX_WIDTH-1:0] w_ram_idx,
+    input logic [RAM_WIDTH-1:0] w_data
+);
+
+
+  // RAM本体
+  (* ram_style = "block" *)
+  logic [RAM_WIDTH-1:0] ram[RAM_DEPTH];
+
+  // バイパス用データ
+  logic [RAM_WIDTH-1:0] r_data_tmp;
+  logic r_en_prev;
+  logic [RAM_IDX_WIDTH-1:0] r_ram_idx_prev;
+  // 書き込みポート
+  logic w_en_prev;
+  logic [RAM_IDX_WIDTH-1:0] w_ram_idx_prev;
+  logic [RAM_WIDTH-1:0] w_data_prev;
+
+  // 何故かバイパス用のalways_ffとbram用のalways_ffを分離しないとうまくbramに推論されない.
+  always_comb begin
+    if (r_en_prev && w_en_prev && w_ram_idx_prev == r_ram_idx_prev) begin
+      r_data = w_data_prev;
+    end else begin
+      r_data = r_data_tmp;
+    end
+  end
+
+  always_ff @(posedge clock) begin
+    r_en_prev <= r_en;
+    r_ram_idx_prev <= r_ram_idx;
+    w_en_prev <= w_en;
+    w_ram_idx_prev <= w_ram_idx;
+    w_data_prev <= w_data;
+  end
+
+  // bram
+  always_ff @(posedge clock) begin
+    if (r_en) begin
+      r_data_tmp <= ram[r_ram_idx];
+    end
+
+    if (w_en) begin
+      ram[w_ram_idx] <= w_data;
+    end
+  end
+
+
+endmodule

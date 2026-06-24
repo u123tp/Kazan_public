@@ -1,0 +1,146 @@
+
+`include "COMMON_PARAMS.svh"
+`include "HART_DEFS.svh"
+
+module Divider
+
+  import COMMON_PARAMS::*;
+  import HART_DEFS::*;
+(
+    input logic clock,
+    input logic reset,
+    input logic flush_in,
+    input vuop_back_t op_in,
+    output vuop_result_t op_out
+
+);
+
+  vuop_result_t op_out_next;
+
+  always_comb begin
+    automatic logic [31:0] rs1_val_32 = 0;
+    automatic logic [31:0] rs2_val_32 = 0;
+
+    automatic logic div_rs1_signed = 0;
+    automatic logic div_rs2_signed = 0;
+
+    automatic logic signed [XLEN:0] div_rs1_ext = 0;
+    automatic logic signed [XLEN:0] div_rs2_ext = 0;
+
+    automatic logic rem_rs1_signed = 0;
+    automatic logic rem_rs2_signed = 0;
+
+    automatic logic signed [XLEN:0] rem_rs1_ext = 0;
+    automatic logic signed [XLEN:0] rem_rs2_ext = 0;
+
+    op_out_next = '{opcode: NOP, default: 0};
+
+    if (op_in.valid) begin
+      op_out_next.valid    = 1;
+      op_out_next.opcode   = op_in.opcode;
+      op_out_next.op_addr  = op_in.op_addr;
+      op_out_next.rd_exist = op_in.rd_exist;
+      op_out_next.rd       = op_in.rd;
+      op_out_next.al_idx   = op_in.al_idx;
+
+      case (op_in.opcode)
+        DIV, DIVU, DIVW, DIVUW: begin
+          if (op_in.rs2_val == 0) begin
+            op_out_next.rd_val = {XLEN{1'b1}};
+          end else
+        if(op_in.opcode == DIV &&
+          op_in.rs1_val == {1'b1, {(XLEN - 1) {1'b0}}} &&
+                op_in.rs2_val == {XLEN{1'b1}})begin
+            // 2の補数表示だと,負数のほうが表せる数が多い.
+            // 例えば, -128 ~ 127 を表せる場合だと, -128 / -1 = 128 はオーバーフローする.
+            // 最小値は0と同じように補数をとっても同じ数字に戻る.
+            op_out_next.rd_val = op_in.rs1_val;
+          end else if(op_in.opcode == DIVW && rs1_val_32 == {1'b1, (31)'(1'b0)} && rs2_val_32 == 32'(signed'(1'b1)))begin
+            // 2の補数表示だと,負数のほうが表せる数が多い.
+            // 例えば, -128 ~ 127 を表せる場合だと, -128 / -1 はオーバーフロー.
+            op_out_next.rd_val = XLEN'(signed'(rs1_val_32));
+          end else begin
+            case (op_in.opcode)
+              DIV: begin
+                div_rs1_ext = $signed({op_in.rs1_val[XLEN-1], op_in.rs1_val});
+                div_rs2_ext = $signed({op_in.rs2_val[XLEN-1], op_in.rs2_val});
+              end
+              DIVU: begin
+                div_rs1_ext = $signed({1'b0, op_in.rs1_val});
+                div_rs2_ext = $signed({1'b0, op_in.rs2_val});
+              end
+              DIVW: begin
+                div_rs1_ext = (XLEN + 1)'($signed(32'(op_in.rs1_val)));
+                div_rs2_ext = (XLEN + 1)'($signed(32'(op_in.rs2_val)));
+              end
+              DIVUW: begin
+                div_rs1_ext = (XLEN + 1)'($unsigned(32'(op_in.rs1_val)));
+                div_rs2_ext = (XLEN + 1)'($unsigned(32'(op_in.rs2_val)));
+              end
+              default: begin
+              end
+            endcase
+
+            op_out_next.rd_val = 64'(div_rs1_ext / div_rs2_ext);
+          end
+        end
+
+
+        REM, REMU, REMW, REMUW: begin
+          if (op_in.rs2_val == 0) begin
+            // 0除算の場合,被除数をそのまま.
+            op_out_next.rd_val = op_in.rs1_val;
+          end else if(op_in.opcode == REM && op_in.rs1_val == {1'b1, {(XLEN - 1) {1'b0}}} &&
+                op_in.rs2_val == {XLEN{1'b1}})begin
+            // 2の補数表示だと,負数のほうが表せる数が多い.
+            // 例えば, -128 ~ 127 を表せる場合だと, -128 / -1 はオーバーフロー.
+            op_out_next.rd_val = 0;
+          end else if(op_in.opcode == REMW && rs1_val_32 == {1'b1, (31)'(1'b0)} && rs2_val_32 == 32'(signed'(1'b1)))begin
+            // 2の補数表示だと,負数のほうが表せる数が多い.
+            // 例えば, -128 ~ 127 を表せる場合だと, -128 / -1 はオーバーフロー.
+            op_out_next.rd_val = 0;
+          end else begin
+            case (op_in.opcode)
+              REM: begin
+                rem_rs1_ext = $signed({op_in.rs1_val[XLEN-1], op_in.rs1_val});
+                rem_rs2_ext = $signed({op_in.rs2_val[XLEN-1], op_in.rs2_val});
+              end
+              REMU: begin
+                rem_rs1_ext = $signed({1'b0, op_in.rs1_val});
+                rem_rs2_ext = $signed({1'b0, op_in.rs2_val});
+              end
+              REMW: begin
+                rem_rs1_ext = (XLEN + 1)'($signed(32'(op_in.rs1_val)));
+                rem_rs2_ext = (XLEN + 1)'($signed(32'(op_in.rs2_val)));
+              end
+              REMUW: begin
+                rem_rs1_ext = (XLEN + 1)'($unsigned(32'(op_in.rs1_val)));
+                rem_rs2_ext = (XLEN + 1)'($unsigned(32'(op_in.rs2_val)));
+              end
+              default: begin
+              end
+            endcase
+            op_out_next.rd_val = 64'(rem_rs1_ext % rem_rs2_ext);
+          end
+        end
+
+        default: begin
+          $display("[ERROR][Divider.sv] divide error. opcode:%s", op_in.opcode.name());
+        end
+      endcase
+    end
+  end
+
+
+  always_ff @(posedge clock) begin
+    if (reset) begin
+      op_out <= '{opcode: NOP, default: 0};
+    end else if (flush_in) begin
+      op_out <= '{opcode: NOP, default: 0};
+    end else begin
+      op_out <= op_out_next;
+    end
+  end
+
+
+endmodule

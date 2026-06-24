@@ -1,0 +1,41 @@
+# Additional clean files
+cmake_minimum_required(VERSION 3.16)
+
+if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
+  file(REMOVE_RECURSE
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/sleep.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xfpga_config.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga_pcap.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilfpga_pcap_common.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_bbramps_zynqmp_hw.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_bsp_config.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp_hw.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_eps_zynqmp_puf.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xilskey_utils.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xiltimer.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aes.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aes_hw.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_aesalginfo.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_config.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_cryptochk.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa_core.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsa_hw.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_rsaalginfo.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha3alginfo.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sha_hw.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_sss.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_utils.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xsecure_ver.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/include/xtimer_config.h"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilfpga.a"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilsecure.a"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilsecure_plat.a"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxilskey.a"
+  "/home/ishida/Documents/Kazan2/vitis/www/platform/zynqmp_pmufw/zynqmp_pmufw_bsp/lib/libxiltimer.a"
+  )
+endif()

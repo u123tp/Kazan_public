@@ -1,0 +1,46 @@
+{
+  "editor.formatOnSave": true,
+  "verilog.linting.linter": "verilator",
+  "verilog.linting.verilator.arguments": "-Wno-DECLFILENAME --unroll-count 300 --lint-only",
+  "verilog.languageServer.veribleVerilogLs.enabled": true,
+  "verilog.languageServer.veribleVerilogLs.path": "/opt/verible/bin/verible-verilog-ls",
+  "verilog.languageServer.veribleVerilogLs.arguments": "--rules=-parameter-name-style,-line-length",
+  "verilog.project.enabled": true,
+  "verilog.project.includeDirs": [
+    "src"
+  ],
+  "verilog.project.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/build/**",
+    "**/obj_dir/**",
+    "**/vivado/**/*.runs/**",
+    "**/vivado/**/*.cache/**",
+    "**/vivado/**/*.gen/**"
+  ],
+  "verilog.completion.ports.enabled": true,
+  "verilog.completion.parameters.enabled": true,
+  "verilog.completion.autoConnectPorts": true,
+  "verilog.completion.autoConnectParameters": true,
+  "verilog.formatting.systemVerilog.formatter": "verible-verilog-format",
+  "verilog.formatting.veribleVerilogFormatter.path": "/opt/verible/bin/verible-verilog-format",
+  "verilog.formatting.veribleVerilogFormatter.arguments": "--module_net_variable_alignment=flush-left --max_search_states=100000",
+  "[systemverilog]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true
+  },
+  "files.associations": {
+    "*.sv": "systemverilog",
+    "*.svh": "systemverilog",
+    "any": "cpp",
+    "bitset": "cpp",
+    "memory": "cpp",
+    "random": "cpp",
+    "future": "cpp",
+    "optional": "cpp"
+  }
+}

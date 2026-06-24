@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/obj_dir",
+                "/usr/share/verilator/include",
+                "/usr/share/verilator/include/vltstd"
+            ],
+            "defines": [
+                "VM_COVERAGE=0",
+                "VM_SC=0",
+                "VM_TIMING=0",
+                "VM_TRACE=0",
+                "VM_TRACE_FST=0",
+                "VM_TRACE_VCD=0"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

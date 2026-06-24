@@ -1,0 +1,15 @@
+# logs
+src/log
+src/**/*.log
+src/obj_dir
+
+# Vivado の一時ファイル
+vivado/**/*.runs/
+vivado/**/*.cache/
+vivado/**/*.hw/
+vivado/**/*.sim/
+vivado/**/*.ip_user_files/
+vivado/**/*.gen/
+vivado/**/*.srcs/sources_1/bd/*/ip/*/synth/
+vivado/**/*.srcs/sources_1/bd/*/ipshared/
+

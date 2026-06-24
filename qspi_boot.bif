@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+    [bootloader, destination_cpu=a53-0] vitis/www/platform/export/platform/sw/boot/fsbl.elf
+    [destination_cpu=pmu] vitis/www/platform/export/platform/sw/boot/pmufw.elf
+    [destination_device=pl] vivado/project_1/project_1.runs/impl_1/design_1_wrapper.bit
+    [destination_cpu=a53-0] vitis/www/app_component/build/app_component.elf
+}

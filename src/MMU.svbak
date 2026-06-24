@@ -1,0 +1,362 @@
+`timescale 1ns / 1ps
+// MMU Memory Management Unit
+// Sv39 を用いてアドレスを変換する.
+// 
+// TODO: 今はpwが1で固定なので,あとでarbiterを追加してpwを複数回せるようにする.
+
+
+`include "HART_DEFS.svh"
+`include "CSR_PROPS.svh"
+`include "COMMON_PARAMS.svh"
+`include "CACHE_PROPS.svh"
+
+
+module MMU
+  import HART_DEFS::*;
+  import COMMON_PARAMS::*;
+  import CSR_PROPS::*;
+  import CACHE_PROPS::*;
+#(
+) (
+    input logic clock,
+    input logic reset,
+
+    // ITLB用
+    itlb_if.host itlb_port,
+
+    // DTLB用
+    dtlb_if.host dtlb_port,
+
+    // pw <=> dキャッシュ のやり取り.
+    output cache_req_t req_to_dcache,
+
+    // NUM_OF_LD_EXEが
+    input cache_res_t res_from_dcache_tmp[NUM_OF_LD_EXE],
+    input logic dcache_noroom,
+
+    input int unsigned generation,
+
+    input logic flush_tlb
+);
+
+  // ---------------------------------------------------------------------------------
+  // 性能パラメータ
+  // ---------------------------------------------------------------------------------
+
+  // ITLB
+  localparam int unsigned NUM_OF_ITLB_WAYS = 2;
+  localparam int unsigned NUM_OF_ITLB_SETS = 128;
+
+  // DTLB
+  localparam int unsigned NUM_OF_DTLB_WAYS = 2;
+  localparam int unsigned NUM_OF_DTLB_SETS = 128;
+
+  // L2TLB
+  localparam int unsigned NUM_OF_L2TLB_WAYS = 2;
+  localparam int unsigned NUM_OF_L2TLB_SETS = 128;
+
+  // -------------------------------------------------
+  // リクエストポートのパラメータ.
+  // -------------------------------------------------
+  localparam int unsigned NUM_OF_REQ_FROM_ITLB = 1;
+  localparam int unsigned NUM_OF_REQ_FROM_DTLB = 1;
+  localparam int unsigned NUM_OF_REQ_TO_L2TLB = NUM_OF_REQ_FROM_ITLB + NUM_OF_REQ_FROM_DTLB;
+  localparam int unsigned NUM_OF_REQ_FROM_L2TLB = 1;
+
+  // ------------------------------------------------
+  // レスポンスポートのパラメータ
+  // ------------------------------------------------
+  localparam int unsigned NUM_OF_RES_TO_L2TLB = 1;
+  localparam int unsigned NUM_OF_RES_FROM_L2TLB = 1;
+  localparam int unsigned NUM_OF_RES_TO_DTLB = NUM_OF_RES_FROM_L2TLB;
+  localparam int unsigned NUM_OF_RES_TO_ITLB = NUM_OF_RES_FROM_L2TLB;
+
+
+
+  // ------------------------------------------------
+  // itlb <=> l2tlb
+  // ------------------------------------------------
+  tlb_req_t req_from_itlb_to_l2tlb;
+  tlb_res_t res_from_l2tlb_to_itlb;
+
+  // ------------------------------------------------
+  // dtlb <=> l2tlb
+  // ------------------------------------------------
+  tlb_req_t req_from_dtlb_to_l2tlb;
+  tlb_res_t res_from_l2tlb_to_dtlb;
+
+  // ----------------------------------------
+  // l2tlb <=> pw
+  // ----------------------------------------
+  tlb_req_t req_from_l2tlb_to_pw;
+  tlb_res_t res_from_pw_to_l2tlb;
+
+  // -----------------------------------------------
+  // dtlb,itlb <=> l2tlb
+  // ------------------------------------------------
+  // tlb_idについて,L1ITLBはそのまま,L1ITLBはL
+  tlb_req_t req_from_l1tlb_to_l2tlb[2];
+  tlb_res_t res_from_l2tlb_to_l1tlb[2];
+
+  // ---------------------------------------------
+  // stall信号
+  // ---------------------------------------------
+  logic stall_req_to_pw;
+
+  logic stall_req_to_l2tlb;
+  logic stall_req_from_itlb;
+  logic stall_req_from_dtlb;
+
+  always_comb begin
+    stall_req_from_itlb = stall_req_to_l2tlb;
+    stall_req_from_dtlb = stall_req_to_l2tlb;
+  end
+
+
+  // ------------------------------------------------------------
+  // sub_idの設定
+  // -------------------------------------------------------------
+  tlb_req_t req_to_itlb_from_icache[NUM_OF_REQ_TO_ITLB];
+  tlb_req_t req_to_dtlb_from_dcache[NUM_OF_REQ_TO_DTLB];
+  always_comb begin
+    // itlbがid_sub==0,dtlbがid_sub==1を用いる.
+
+    for (int unsigned i = 0; i < NUM_OF_REQ_TO_ITLB; i++) begin
+      req_to_itlb_from_icache[i] = itlb_port.req[i];
+      req_to_itlb_from_icache[i].id_sub = 0;
+    end
+
+    for (int unsigned i = 0; i < NUM_OF_REQ_TO_DTLB; i++) begin
+      req_to_dtlb_from_dcache[i] = dtlb_port.req[i];
+      req_to_dtlb_from_dcache[i].id_sub = 1;
+    end
+  end
+
+
+  // L1 ITLB
+  TLB #(
+      .NUM_OF_WAYS(NUM_OF_ITLB_WAYS),
+      .NUM_OF_SET(NUM_OF_ITLB_SETS),
+      .NUM_OF_PORT(NUM_OF_REQ_TO_ITLB),
+      .RES_PORT_FOR_SUBID({NUM_OF_REQ_TO_ITLB{1'b0}}),
+      .TLB_ID(0)
+  ) l1itlb (
+      .clock(clock),
+      .reset(reset),
+      .req_in(req_to_itlb_from_icache),
+      .res_out(itlb_port.res),
+      .req_out(req_from_itlb_to_l2tlb),
+      .res_in(res_from_l2tlb_to_itlb),
+      .stall_req_out(stall_req_from_itlb),
+      .flush_tlb(flush_tlb),
+      .stall_req_in(itlb_port.stall_req_to_itlb)
+  );
+
+  // L1 DTLB
+  TLB #(
+      .NUM_OF_WAYS(NUM_OF_DTLB_WAYS),
+      .NUM_OF_SET(NUM_OF_DTLB_SETS),
+      .NUM_OF_PORT(NUM_OF_REQ_TO_DTLB),
+      .RES_PORT_FOR_SUBID({NUM_OF_REQ_TO_DTLB{1'b1}}),
+      .TLB_ID(1)
+  ) l1dtlb (
+      .clock(clock),
+      .reset(reset),
+      .req_in(req_to_dtlb_from_dcache),
+      .res_out(dtlb_port.res),
+      .req_out(req_from_dtlb_to_l2tlb),
+      .res_in(res_from_l2tlb_to_dtlb),
+      .stall_req_out(stall_req_from_dtlb),
+      .flush_tlb(flush_tlb),
+      .stall_req_in(dtlb_port.stall_req_to_dtlb)
+  );
+
+
+  // L2 TLB
+  TLB #(
+      .NUM_OF_WAYS(NUM_OF_L2TLB_WAYS),
+      .NUM_OF_SET(NUM_OF_L2TLB_SETS),
+      .NUM_OF_PORT(NUM_OF_REQ_TO_L2TLB),
+      .RES_PORT_FOR_SUBID({2'b10}),
+      .TLB_ID(2)
+  ) l2tlb (
+      .clock(clock),
+      .reset(reset),
+      .req_in(req_from_l1tlb_to_l2tlb),
+      .res_out(res_from_l2tlb_to_l1tlb),
+      .req_out(req_from_l2tlb_to_pw),
+      .res_in(res_from_pw_to_l2tlb),
+      .stall_req_out(stall_req_to_pw),
+      .flush_tlb(flush_tlb),
+      .stall_req_in(stall_req_to_l2tlb)
+  );
+
+  // PW
+  // genvar pw_idx;
+  // cache_res_t res_from_dcache[NUM_OF_PW];
+  // generate
+  //   for (pw_idx = 0; pw_idx < NUM_OF_PW; pw_idx++) begin : gen_pw
+  //     PageWalker #(
+  //         .PW_IDX(pw_idx)
+  //     ) pw (
+  //         .clock(clock),
+  //         .reset(reset),
+  //         .req_from_tlb(req_from_l2tlb_to_pw[pw_idx]),
+  //         .res_to_tlb(res_from_pw_to_l2tlb[pw_idx]),
+  //         .req_to_dcache(req_to_dcache[pw_idx]),
+  //         .res_from_dcache(res_from_dcache[pw_idx]),
+  //         .dcache_noroom(dcache_noroom),
+  //         .generation(generation),
+  //         .stall_out(stall_req_to_pw[pw_idx])
+  //     );
+  //   end
+  // endgenerate
+
+  cache_res_t res_from_dcache;
+  PageWalker #() pw (
+      .clock(clock),
+      .reset(reset),
+      .req_from_tlb(req_from_l2tlb_to_pw),
+      .res_to_tlb(res_from_pw_to_l2tlb),
+      .req_to_dcache(req_to_dcache),
+      .res_from_dcache(res_from_dcache),
+      .dcache_noroom(dcache_noroom),
+      .generation(generation),
+      .stall_out(stall_req_to_pw)
+  );
+
+  // itlb,dtlbとl2tlbの間のやり取りで,itlbとdtlbを調停する.
+  always_comb begin
+    // itlb,dtlb => l2tlb
+
+    req_from_l1tlb_to_l2tlb[0] = '{
+        valid: req_from_itlb_to_l2tlb.valid,
+        id: req_from_itlb_to_l2tlb.id,
+        id_sub: 0,
+        generation: req_from_itlb_to_l2tlb.generation,
+        satp: req_from_itlb_to_l2tlb.satp,
+        vaddr: req_from_itlb_to_l2tlb.vaddr
+    };
+
+    req_from_l1tlb_to_l2tlb[1] = '{
+        valid: req_from_dtlb_to_l2tlb.valid,
+        id: req_from_dtlb_to_l2tlb.id,
+        id_sub: 1,
+        generation: req_from_dtlb_to_l2tlb.generation,
+        satp: req_from_dtlb_to_l2tlb.satp,
+        vaddr: req_from_dtlb_to_l2tlb.vaddr
+    };
+  end
+
+
+  //l2tlb => itlb,dtlb
+  always_comb begin
+    res_from_l2tlb_to_itlb = res_from_l2tlb_to_l1tlb[0];
+    res_from_l2tlb_to_dtlb = res_from_l2tlb_to_l1tlb[1];
+  end
+
+  // PW <= DCACHE
+  always_comb begin
+    // 初期化
+    res_from_dcache = '{default: 0, req_policy: REQ_POLICY_NONE, cb_req_type: CB_REQ_TYPE_NONE};
+    // DCACHEからの返答(res_from_dcache_tmp)をres_from_dcacheに分配する.
+    // すでにpwへのレスポンスだけにフィルタリングして返される.
+    // 同時にひとつしかpwへリクエスト送らないのでOK.
+    for (int unsigned i = 0; i < NUM_OF_LD_EXE; i++) begin
+      if (res_from_dcache_tmp[i].valid) begin
+        res_from_dcache = res_from_dcache_tmp[i];
+      end
+    end
+  end
+
+  // FOR DEBUG
+  logic itlb_stall_out_prev;
+  logic dtlb_stall_out_prev;
+  always_ff @(posedge clock, posedge reset) begin
+
+
+    // for (int unsigned i = 0; i < 3; i++) begin
+    //   automatic tlb_req_t r;
+    //   r = itlb_port.req[i];
+
+    //   if (r.valid && r.vaddr < 39'h8000_0000) begin
+    //     $display(
+    //         "[LOG][MMU.sv] itlb_port_req[%0d] valid=%0b id=%0d sub=%0b gen=%0d satp=%h vaddr=%h",
+    //         i, r.valid, r.id, r.id_sub, r.generation, r.satp, r.vaddr);
+    //   end
+    // end
+
+    // for (int unsigned i = 0; i < 3; i++) begin
+    //   automatic tlb_req_t r;
+    //   r = dtlb_port.req[i];
+
+    //   if (r.valid && r.vaddr == 39'h1400) begin
+    //     $display(
+    //         "[LOG][MMU.sv] dtlb_port_req[%0d]  valid=%0b id=%0d sub=%0b gen=%0d satp=%h vaddr=%h",
+    //         i, r.valid, r.id, r.id_sub, r.generation, r.satp, r.vaddr);
+    //   end
+    // end
+
+    // for (int unsigned i = 0; i < 3; i++) begin
+    //   automatic tlb_res_t r = itlb_port.res[i];
+    //   if (r.valid && r.vaddr < 39'h8000_0000) begin
+    //     $display(
+    //         "[LOG][MMU.sv] itlb_port_res[%0d] valid=%0b id=%0d sub=%0b gen=%0d vaddr=%h paddr=%h satp=%h pma=%0d pf=%0b a=%0b d=%0b",
+    //         i, r.valid, r.id, r.id_sub, r.generation, r.vaddr, r.paddr, r.satp, r.pma_type,
+    //         r.is_page_fault, r.pte_a, r.pte_d);
+    //   end
+    // end
+
+    // for (int unsigned i = 0; i < 3; i++) begin
+    //   automatic tlb_res_t r = dtlb_port.res[i];
+    //   if (r.valid && r.vaddr == 39'h1400) begin
+    //     $display(
+    //         "[LOG][MMU.sv] dtlb_port_res[%0d] valid=%0b id=%0d sub=%0b gen=%0d vaddr=%h paddr=%h satp=%h pma=%0d pf=%0b a=%0b d=%0b",
+    //         i, r.valid, r.id, r.id_sub, r.generation, r.vaddr, r.paddr, r.satp, r.pma_type,
+    //         r.is_page_fault, r.pte_a, r.pte_d);
+    //   end
+    // end
+
+    // begin
+    //   automatic tlb_req_t r;
+    //   r = req_from_itlb_to_l2tlb;
+    //   if (r.valid) begin
+    //     $display(
+    //         "[LOG][MMU.sv] req_from_itlb_to_l2tlb valid=%0b id=%0d sub=%0b gen=%0d satp=%h vaddr=%h",
+    //         r.valid, r.id, r.id_sub, r.generation, r.satp, r.vaddr);
+    //   end
+    // end
+    // begin
+    //   automatic tlb_res_t r;
+    //   r = res_from_l2tlb_to_itlb;
+    //   if (r.valid && r.vaddr == 39'h1400) begin
+    //     $display(
+    //         "[LOG][MMU.sv] res_from_l2tlb_to_itlb valid=%0b id=%0d sub=%0b gen=%0d vaddr=%h paddr=%h satp=%h pma=%0d pf=%0b a=%0b d=%0b",
+    //         r.valid, r.id, r.id_sub, r.generation, r.vaddr, r.paddr, r.satp, r.pma_type,
+    //         r.is_page_fault, r.pte_a, r.pte_d);
+    //   end
+    // end
+
+
+    // if (itlb_stall_out_prev == 0 && itlb_port.stall_req_to_itlb == 1) begin
+    //   $display("itlb_stall on");
+    // end
+    // if (itlb_stall_out_prev == 1 && itlb_port.stall_req_to_itlb == 0) begin
+    //   $display("itlb_stall off");
+    // end
+    // itlb_stall_out_prev <= itlb_port.stall_req_to_itlb;
+
+    // if (dtlb_stall_out_prev == 0 && dtlb_port.stall_req_to_dtlb == 1) begin
+    //   $display("dtlb_stall on");
+    // end
+    // if (dtlb_stall_out_prev == 1 && dtlb_port.stall_req_to_dtlb == 0) begin
+    //   $display("dtlb_stall off");
+    // end
+    // dtlb_stall_out_prev <= dtlb_port.stall_req_to_dtlb;
+    // $display("[MMU] req_valid itlb=%0b dtlb=%0b  stall_to_itlb=%0b stall_to_dtlb=%0b",
+    //          itlb_port.req[0].valid, dtlb_port.req[0].valid, itlb_port.stall_req_to_itlb,
+    //          dtlb_port.stall_req_to_dtlb);
+  end
+
+
+endmodule

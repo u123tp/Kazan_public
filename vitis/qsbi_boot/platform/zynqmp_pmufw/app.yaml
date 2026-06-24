@@ -1,0 +1,4 @@
+domain_path: /home/ishida/Documents/Kazan2/vitis/qsbi_boot/platform/zynqmp_pmufw/zynqmp_pmufw_bsp
+app_src_dir: /tools/Xilinx/Vitis/2024.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw
+template: zynqmp_pmufw
+lang: c
