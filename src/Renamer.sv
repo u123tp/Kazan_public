@@ -1891,9 +1891,6 @@ module Renamer
       // invalidate_l1_cache
       invalidate_l1cache <= 0;
 
-      // minstretの更新
-      csr_port.minstret_w <= '{en: 1, data: 0};
-
       // generationの更新
       generation <= 0;
 
@@ -1905,11 +1902,6 @@ module Renamer
 
       // invalidate_l1_cache
       invalidate_l1cache <= 0;
-
-      // minstretの更新
-      if (!csr_port.mcountinhibit_rdata.as_mcountinhibit.IR) begin
-        csr_port.minstret_w <= '{en: 1, data: csr_port.minstret_rdata + XLEN'(num_of_used_al)};
-      end
 
       // generationの更新
       generation <= generation + 1;
@@ -1923,17 +1915,17 @@ module Renamer
       // invalidate_l1_cache
       invalidate_l1cache <= invalidate_l1cache_next;
 
-      // invalidate_l1_cache
-      if (!csr_port.mcountinhibit_rdata.as_mcountinhibit.IR) begin
-        csr_port.minstret_w <= '{en: 1, data: csr_port.minstret_rdata + XLEN'(num_of_used_al)};
-      end
-
       // generationの更新
       generation <= generation;
 
       //　op_outの出力
       op_out <= op_out_next;
     end
+  end
+
+  // minstretの初期化はcsrrfで行うため問題ない
+  always_comb begin
+    csr_port.minstret_w = '{en: 1, data: csr_port.minstret_rdata + XLEN'(num_of_used_al)};
   end
 
 
@@ -2082,195 +2074,195 @@ module Renamer
   // realtime renamer dump
   // 100 cycleごとに ./log/realtime_renamer.log を上書き作成する
   // ------------------------------------------------------------
-// `ifdef VERILATOR_COMPILE
+  // `ifdef VERILATOR_COMPILE
 
-//   localparam int unsigned REALTIME_RENAMER_DUMP_PERIOD = 1000;
+  //   localparam int unsigned REALTIME_RENAMER_DUMP_PERIOD = 1000;
 
-//   longint unsigned realtime_renamer_cycle;
-//   int realtime_renamer_fp;
+  //   longint unsigned realtime_renamer_cycle;
+  //   int realtime_renamer_fp;
 
-//   task automatic realtime_renamer_dump_al_meta(input int unsigned fp, input int unsigned head_i,
-//                                                input al_meta_t x);
-//     $fdisplay(fp, "    META: op_vaddr=0x%010h opcode=%s raw_op=0x%08h", x.op_vaddr,
-//               x.opcode.name(), x.raw_op);
-//     $fdisplay(fp, "          has_rd=%0d logical_rd=%0d physical_rd=%0d prev_physical_rd=%0d",
-//               x.has_rd, x.logical_rd, x.physical_rd, x.previous_physical_rd);
-//     $fdisplay(fp, "          has_rs1=%0d logical_rs1=%0d physical_rs1=%0d", x.has_rs1,
-//               x.logical_rs1, x.physical_rs1);
-//     $fdisplay(fp, "          has_rs2=%0d logical_rs2=%0d physical_rs2=%0d", x.has_rs2,
-//               x.logical_rs2, x.physical_rs2);
-//     $fdisplay(fp, "          pred_taken=%0d pred_taken_addr=0x%010h instr_pf=%0d instr_af=%0d",
-//               x.pred_taken, x.pred_taken_addr, x.is_page_fault_instr, x.is_access_fault_instr);
-//   endtask
+  //   task automatic realtime_renamer_dump_al_meta(input int unsigned fp, input int unsigned head_i,
+  //                                                input al_meta_t x);
+  //     $fdisplay(fp, "    META: op_vaddr=0x%010h opcode=%s raw_op=0x%08h", x.op_vaddr,
+  //               x.opcode.name(), x.raw_op);
+  //     $fdisplay(fp, "          has_rd=%0d logical_rd=%0d physical_rd=%0d prev_physical_rd=%0d",
+  //               x.has_rd, x.logical_rd, x.physical_rd, x.previous_physical_rd);
+  //     $fdisplay(fp, "          has_rs1=%0d logical_rs1=%0d physical_rs1=%0d", x.has_rs1,
+  //               x.logical_rs1, x.physical_rs1);
+  //     $fdisplay(fp, "          has_rs2=%0d logical_rs2=%0d physical_rs2=%0d", x.has_rs2,
+  //               x.logical_rs2, x.physical_rs2);
+  //     $fdisplay(fp, "          pred_taken=%0d pred_taken_addr=0x%010h instr_pf=%0d instr_af=%0d",
+  //               x.pred_taken, x.pred_taken_addr, x.is_page_fault_instr, x.is_access_fault_instr);
+  //   endtask
 
-//   task automatic realtime_renamer_dump_al_result(input int unsigned fp, input int unsigned head_i,
-//                                                  input al_result_t x);
-//     $fdisplay(fp, "    RESULT: actual_taken=%0d actual_taken_addr=0x%010h rd_val=0x%016h",
-//               x.actual_taken, x.actual_taken_addr, x.rd_val);
-//     $fdisplay(fp, "            ldst_vaddr=0x%010h ldst_paddr=0x%010h", x.ldst_target_vaddr,
-//               x.ldst_target_paddr);
-//     $fdisplay(fp, "            ldst_pf=%0d ldst_af=%0d misalign=%0d", x.is_page_fault_ldst,
-//               x.is_access_fault_ldst, x.target_address_misalignment);
-//   endtask
+  //   task automatic realtime_renamer_dump_al_result(input int unsigned fp, input int unsigned head_i,
+  //                                                  input al_result_t x);
+  //     $fdisplay(fp, "    RESULT: actual_taken=%0d actual_taken_addr=0x%010h rd_val=0x%016h",
+  //               x.actual_taken, x.actual_taken_addr, x.rd_val);
+  //     $fdisplay(fp, "            ldst_vaddr=0x%010h ldst_paddr=0x%010h", x.ldst_target_vaddr,
+  //               x.ldst_target_paddr);
+  //     $fdisplay(fp, "            ldst_pf=%0d ldst_af=%0d misalign=%0d", x.is_page_fault_ldst,
+  //               x.is_access_fault_ldst, x.target_address_misalignment);
+  //   endtask
 
-//   task automatic realtime_renamer_dump_file(input longint unsigned cyc);
-//     realtime_renamer_fp = $fopen("./log/realtime_renamer.log", "w");
+  //   task automatic realtime_renamer_dump_file(input longint unsigned cyc);
+  //     realtime_renamer_fp = $fopen("./log/realtime_renamer.log", "w");
 
-//     if (realtime_renamer_fp == 0) begin
-//       $display("[REALTIME_RENAMER_DUMP][ERROR] cannot open ./log/realtime_renamer.log");
-//     end else begin
-//       $fdisplay(realtime_renamer_fp,
-//                 "============================================================");
-//       $fdisplay(realtime_renamer_fp, "[REALTIME_RENAMER_DUMP] time=%0t cycle=%0d generation=0x%08h",
-//                 $time, cyc, generation);
-//       $fdisplay(realtime_renamer_fp,
-//                 "------------------------------------------------------------");
+  //     if (realtime_renamer_fp == 0) begin
+  //       $display("[REALTIME_RENAMER_DUMP][ERROR] cannot open ./log/realtime_renamer.log");
+  //     end else begin
+  //       $fdisplay(realtime_renamer_fp,
+  //                 "============================================================");
+  //       $fdisplay(realtime_renamer_fp, "[REALTIME_RENAMER_DUMP] time=%0t cycle=%0d generation=0x%08h",
+  //                 $time, cyc, generation);
+  //       $fdisplay(realtime_renamer_fp,
+  //                 "------------------------------------------------------------");
 
-//       $fdisplay(realtime_renamer_fp, "rp/wp/noei: al_rp=%0d al_wp=%0d noei_al=%0d", al_rp, al_wp,
-//                 noei_al);
-//       $fdisplay(realtime_renamer_fp, "next      : al_rp_next=%0d al_wp_next=%0d noei_al_next=%0d",
-//                 al_rp_next, al_wp_next, noei_al_next);
-//       $fdisplay(realtime_renamer_fp, "new/used  : num_of_new_al=%0d num_of_used_al=%0d",
-//                 num_of_new_al, num_of_used_al);
+  //       $fdisplay(realtime_renamer_fp, "rp/wp/noei: al_rp=%0d al_wp=%0d noei_al=%0d", al_rp, al_wp,
+  //                 noei_al);
+  //       $fdisplay(realtime_renamer_fp, "next      : al_rp_next=%0d al_wp_next=%0d noei_al_next=%0d",
+  //                 al_rp_next, al_wp_next, noei_al_next);
+  //       $fdisplay(realtime_renamer_fp, "new/used  : num_of_new_al=%0d num_of_used_al=%0d",
+  //                 num_of_new_al, num_of_used_al);
 
-//       $fdisplay(
-//           realtime_renamer_fp,
-//           "stall/flush: stall_in=%0d stall_out=%0d flush_al=%0d flush_from_renamer.valid=%0d addr=0x%010h",
-//           stall_in, stall_out, flush_al, flush_from_renamer.valid, flush_from_renamer.addr);
+  //       $fdisplay(
+  //           realtime_renamer_fp,
+  //           "stall/flush: stall_in=%0d stall_out=%0d flush_al=%0d flush_from_renamer.valid=%0d addr=0x%010h",
+  //           stall_in, stall_out, flush_al, flush_from_renamer.valid, flush_from_renamer.addr);
 
-//       $fdisplay(
-//           realtime_renamer_fp,
-//           "cache/tlb: invalidate_l1cache=%0d invalidate_l1cache_next=%0d invalidate_l1cache_done=%0d flush_tlb=%0d",
-//           invalidate_l1cache, invalidate_l1cache_next, invalidate_l1cache_done, flush_tlb);
+  //       $fdisplay(
+  //           realtime_renamer_fp,
+  //           "cache/tlb: invalidate_l1cache=%0d invalidate_l1cache_next=%0d invalidate_l1cache_done=%0d flush_tlb=%0d",
+  //           invalidate_l1cache, invalidate_l1cache_next, invalidate_l1cache_done, flush_tlb);
 
-//       $fdisplay(realtime_renamer_fp, "pending: is_pending=%0d is_pending_next=%0d", is_pending,
-//                 is_pending_next);
+  //       $fdisplay(realtime_renamer_fp, "pending: is_pending=%0d is_pending_next=%0d", is_pending,
+  //                 is_pending_next);
 
-//       $fdisplay(realtime_renamer_fp, "");
-//       $fdisplay(realtime_renamer_fp, "==================== AL HEADS ====================");
+  //       $fdisplay(realtime_renamer_fp, "");
+  //       $fdisplay(realtime_renamer_fp, "==================== AL HEADS ====================");
 
-//       for (int unsigned i = 0; i < NUM_OF_GRADUATE; i++) begin
-//         automatic logic [AL_IDX_WIDTH-1:0] head_al_idx;
-//         automatic logic [AL_BANK_IDX_WIDTH-1:0] head_bank;
-//         automatic logic [AL_INBANK_IDX_WIDTH-1:0] head_inbank;
+  //       for (int unsigned i = 0; i < NUM_OF_GRADUATE; i++) begin
+  //         automatic logic [AL_IDX_WIDTH-1:0] head_al_idx;
+  //         automatic logic [AL_BANK_IDX_WIDTH-1:0] head_bank;
+  //         automatic logic [AL_INBANK_IDX_WIDTH-1:0] head_inbank;
 
-//         head_bank   = al_heads_al_bank_idx[i];
-//         head_inbank = al_heads_al_inbank_idx[i];
-//         head_al_idx = {head_inbank, head_bank};
+  //         head_bank   = al_heads_al_bank_idx[i];
+  //         head_inbank = al_heads_al_inbank_idx[i];
+  //         head_al_idx = {head_inbank, head_bank};
 
-//         $fdisplay(realtime_renamer_fp,
-//                   "------------------------------------------------------------");
-//         $fdisplay(realtime_renamer_fp,
-//                   "HEAD[%0d]: valid=%0d al_idx=%0d bank=%0d inbank=%0d commit_type=%s", i,
-//                   al_heads_valid[i], head_al_idx, head_bank, head_inbank, commit_type[i].name());
+  //         $fdisplay(realtime_renamer_fp,
+  //                   "------------------------------------------------------------");
+  //         $fdisplay(realtime_renamer_fp,
+  //                   "HEAD[%0d]: valid=%0d al_idx=%0d bank=%0d inbank=%0d commit_type=%s", i,
+  //                   al_heads_valid[i], head_al_idx, head_bank, head_inbank, commit_type[i].name());
 
-//         $fdisplay(realtime_renamer_fp,
-//                   "         done=%0d amo_ld_done=%0d fencei_sig_made=%0d raw_hazard=%0d",
-//                   al_done[head_bank][head_inbank], al_amo_ld_done[head_bank][head_inbank],
-//                   al_fencei_sig_made[head_bank][head_inbank],
-//                   al_raw_hazard[head_bank][head_inbank]);
+  //         $fdisplay(realtime_renamer_fp,
+  //                   "         done=%0d amo_ld_done=%0d fencei_sig_made=%0d raw_hazard=%0d",
+  //                   al_done[head_bank][head_inbank], al_amo_ld_done[head_bank][head_inbank],
+  //                   al_fencei_sig_made[head_bank][head_inbank],
+  //                   al_raw_hazard[head_bank][head_inbank]);
 
-//         realtime_renamer_dump_al_meta(realtime_renamer_fp, i, al_meta_heads[i]);
-//         realtime_renamer_dump_al_result(realtime_renamer_fp, i, al_result_heads[i]);
+  //         realtime_renamer_dump_al_meta(realtime_renamer_fp, i, al_meta_heads[i]);
+  //         realtime_renamer_dump_al_result(realtime_renamer_fp, i, al_result_heads[i]);
 
-//         $fdisplay(realtime_renamer_fp, "    exception_info: valid=%0d cause=%0d tval=0x%016h",
-//                   exception_info[i].valid, exception_info[i].cause, exception_info[i].tval);
-//       end
+  //         $fdisplay(realtime_renamer_fp, "    exception_info: valid=%0d cause=%0d tval=0x%016h",
+  //                   exception_info[i].valid, exception_info[i].cause, exception_info[i].tval);
+  //       end
 
-//       $fdisplay(realtime_renamer_fp, "");
-//       $fdisplay(realtime_renamer_fp, "==================== AL STATUS ARRAYS ====================");
+  //       $fdisplay(realtime_renamer_fp, "");
+  //       $fdisplay(realtime_renamer_fp, "==================== AL STATUS ARRAYS ====================");
 
-//       for (int unsigned bank = 0; bank < NUM_OF_AL_BANK; bank++) begin
-//         $fwrite(realtime_renamer_fp, "bank[%0d] al_done             : ", bank);
-//         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
-//           $fwrite(realtime_renamer_fp, "%0d", al_done[bank][idx]);
-//         end
-//         $fdisplay(realtime_renamer_fp, "");
+  //       for (int unsigned bank = 0; bank < NUM_OF_AL_BANK; bank++) begin
+  //         $fwrite(realtime_renamer_fp, "bank[%0d] al_done             : ", bank);
+  //         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
+  //           $fwrite(realtime_renamer_fp, "%0d", al_done[bank][idx]);
+  //         end
+  //         $fdisplay(realtime_renamer_fp, "");
 
-//         $fwrite(realtime_renamer_fp, "bank[%0d] al_amo_ld_done      : ", bank);
-//         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
-//           $fwrite(realtime_renamer_fp, "%0d", al_amo_ld_done[bank][idx]);
-//         end
-//         $fdisplay(realtime_renamer_fp, "");
+  //         $fwrite(realtime_renamer_fp, "bank[%0d] al_amo_ld_done      : ", bank);
+  //         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
+  //           $fwrite(realtime_renamer_fp, "%0d", al_amo_ld_done[bank][idx]);
+  //         end
+  //         $fdisplay(realtime_renamer_fp, "");
 
-//         $fwrite(realtime_renamer_fp, "bank[%0d] al_fencei_sig_made  : ", bank);
-//         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
-//           $fwrite(realtime_renamer_fp, "%0d", al_fencei_sig_made[bank][idx]);
-//         end
-//         $fdisplay(realtime_renamer_fp, "");
+  //         $fwrite(realtime_renamer_fp, "bank[%0d] al_fencei_sig_made  : ", bank);
+  //         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
+  //           $fwrite(realtime_renamer_fp, "%0d", al_fencei_sig_made[bank][idx]);
+  //         end
+  //         $fdisplay(realtime_renamer_fp, "");
 
-//         $fwrite(realtime_renamer_fp, "bank[%0d] al_raw_hazard       : ", bank);
-//         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
-//           $fwrite(realtime_renamer_fp, "%0d", al_raw_hazard[bank][idx]);
-//         end
-//         $fdisplay(realtime_renamer_fp, "");
-//       end
+  //         $fwrite(realtime_renamer_fp, "bank[%0d] al_raw_hazard       : ", bank);
+  //         for (int unsigned idx = 0; idx < AL_BANK_SIZE; idx++) begin
+  //           $fwrite(realtime_renamer_fp, "%0d", al_raw_hazard[bank][idx]);
+  //         end
+  //         $fdisplay(realtime_renamer_fp, "");
+  //       end
 
-//       $fdisplay(realtime_renamer_fp, "");
-//       $fdisplay(realtime_renamer_fp, "==================== AL UPDATE SIGNALS ====================");
+  //       $fdisplay(realtime_renamer_fp, "");
+  //       $fdisplay(realtime_renamer_fp, "==================== AL UPDATE SIGNALS ====================");
 
-//       for (int unsigned i = 0; i < NUM_OF_RESULT_FEEDBACKS; i++) begin
-//         $fdisplay(
-//             realtime_renamer_fp,
-//             "feedback[%0d]: valid=%0d opcode=%s al_idx=%0d op_addr=0x%010h rd=%0d rd_val=0x%016h",
-//             i, feedback_op[i].valid, feedback_op[i].opcode.name(), feedback_op[i].al_idx,
-//             feedback_op[i].op_addr, feedback_op[i].rd, feedback_op[i].rd_val);
+  //       for (int unsigned i = 0; i < NUM_OF_RESULT_FEEDBACKS; i++) begin
+  //         $fdisplay(
+  //             realtime_renamer_fp,
+  //             "feedback[%0d]: valid=%0d opcode=%s al_idx=%0d op_addr=0x%010h rd=%0d rd_val=0x%016h",
+  //             i, feedback_op[i].valid, feedback_op[i].opcode.name(), feedback_op[i].al_idx,
+  //             feedback_op[i].op_addr, feedback_op[i].rd, feedback_op[i].rd_val);
 
-//         $fdisplay(
-//             realtime_renamer_fp, "  al_done_new_from_feedback: valid=%0d bank=%0d inbank=%0d",
-//             al_done_new_from_op_feedback[i].valid, al_done_new_from_op_feedback[i].al_bank_idx,
-//             al_done_new_from_op_feedback[i].al_inbank_idx);
+  //         $fdisplay(
+  //             realtime_renamer_fp, "  al_done_new_from_feedback: valid=%0d bank=%0d inbank=%0d",
+  //             al_done_new_from_op_feedback[i].valid, al_done_new_from_op_feedback[i].al_bank_idx,
+  //             al_done_new_from_op_feedback[i].al_inbank_idx);
 
-//         $fdisplay(realtime_renamer_fp, "  al_result_w: en=%0d idx=%0d", al_result_w_en[i],
-//                   al_result_w_idx[i]);
-//       end
+  //         $fdisplay(realtime_renamer_fp, "  al_result_w: en=%0d idx=%0d", al_result_w_en[i],
+  //                   al_result_w_idx[i]);
+  //       end
 
-//       $fdisplay(realtime_renamer_fp, "fence_i_done_update: valid=%0d bank=%0d inbank=%0d",
-//                 al_done_new_from_fence_i.valid, al_done_new_from_fence_i.al_bank_idx,
-//                 al_done_new_from_fence_i.al_inbank_idx);
+  //       $fdisplay(realtime_renamer_fp, "fence_i_done_update: valid=%0d bank=%0d inbank=%0d",
+  //                 al_done_new_from_fence_i.valid, al_done_new_from_fence_i.al_bank_idx,
+  //                 al_done_new_from_fence_i.al_inbank_idx);
 
-//       $fdisplay(realtime_renamer_fp, "fencei_sig_made_new: valid=%0d bank=%0d inbank=%0d",
-//                 al_fencei_sig_made_new.valid, al_fencei_sig_made_new.al_bank_idx,
-//                 al_fencei_sig_made_new.al_inbank_idx);
+  //       $fdisplay(realtime_renamer_fp, "fencei_sig_made_new: valid=%0d bank=%0d inbank=%0d",
+  //                 al_fencei_sig_made_new.valid, al_fencei_sig_made_new.al_bank_idx,
+  //                 al_fencei_sig_made_new.al_inbank_idx);
 
-//       $fdisplay(realtime_renamer_fp, "raw_hazard_new: valid=%0d bank=%0d inbank=%0d",
-//                 al_raw_hazard_new.valid, al_raw_hazard_new.al_bank_idx,
-//                 al_raw_hazard_new.al_inbank_idx);
+  //       $fdisplay(realtime_renamer_fp, "raw_hazard_new: valid=%0d bank=%0d inbank=%0d",
+  //                 al_raw_hazard_new.valid, al_raw_hazard_new.al_bank_idx,
+  //                 al_raw_hazard_new.al_inbank_idx);
 
-//       $fdisplay(realtime_renamer_fp, "");
-//       $fdisplay(realtime_renamer_fp, "==================== DELETE SIGNALS ====================");
+  //       $fdisplay(realtime_renamer_fp, "");
+  //       $fdisplay(realtime_renamer_fp, "==================== DELETE SIGNALS ====================");
 
-//       for (int unsigned i = 0; i < NUM_OF_GRADUATE; i++) begin
-//         $fdisplay(
-//             realtime_renamer_fp,
-//             "del[%0d]: done(valid=%0d bank=%0d inbank=%0d) amo(valid=%0d bank=%0d inbank=%0d) fencei(valid=%0d bank=%0d inbank=%0d) raw(valid=%0d bank=%0d inbank=%0d)",
-//             i, al_done_del[i].valid, al_done_del[i].al_bank_idx, al_done_del[i].al_inbank_idx,
-//             al_amo_ld_done_del[i].valid, al_amo_ld_done_del[i].al_bank_idx,
-//             al_amo_ld_done_del[i].al_inbank_idx, al_fencei_sig_made_del[i].valid,
-//             al_fencei_sig_made_del[i].al_bank_idx, al_fencei_sig_made_del[i].al_inbank_idx,
-//             al_raw_hazard_del[i].valid, al_raw_hazard_del[i].al_bank_idx,
-//             al_raw_hazard_del[i].al_inbank_idx);
-//       end
+  //       for (int unsigned i = 0; i < NUM_OF_GRADUATE; i++) begin
+  //         $fdisplay(
+  //             realtime_renamer_fp,
+  //             "del[%0d]: done(valid=%0d bank=%0d inbank=%0d) amo(valid=%0d bank=%0d inbank=%0d) fencei(valid=%0d bank=%0d inbank=%0d) raw(valid=%0d bank=%0d inbank=%0d)",
+  //             i, al_done_del[i].valid, al_done_del[i].al_bank_idx, al_done_del[i].al_inbank_idx,
+  //             al_amo_ld_done_del[i].valid, al_amo_ld_done_del[i].al_bank_idx,
+  //             al_amo_ld_done_del[i].al_inbank_idx, al_fencei_sig_made_del[i].valid,
+  //             al_fencei_sig_made_del[i].al_bank_idx, al_fencei_sig_made_del[i].al_inbank_idx,
+  //             al_raw_hazard_del[i].valid, al_raw_hazard_del[i].al_bank_idx,
+  //             al_raw_hazard_del[i].al_inbank_idx);
+  //       end
 
-//       $fdisplay(realtime_renamer_fp,
-//                 "============================================================");
-//       $fflush(realtime_renamer_fp);
-//       $fclose(realtime_renamer_fp);
-//     end
-//   endtask
+  //       $fdisplay(realtime_renamer_fp,
+  //                 "============================================================");
+  //       $fflush(realtime_renamer_fp);
+  //       $fclose(realtime_renamer_fp);
+  //     end
+  //   endtask
 
-//   always @(posedge clock) begin
-//     if (reset) begin
-//       realtime_renamer_cycle <= 0;
-//     end else begin
-//       realtime_renamer_cycle <= realtime_renamer_cycle + 1;
+  //   always @(posedge clock) begin
+  //     if (reset) begin
+  //       realtime_renamer_cycle <= 0;
+  //     end else begin
+  //       realtime_renamer_cycle <= realtime_renamer_cycle + 1;
 
-//       if (((realtime_renamer_cycle + 1) % 64'(REALTIME_RENAMER_DUMP_PERIOD)) == 0) begin
-//         realtime_renamer_dump_file(realtime_renamer_cycle + 1);
-//       end
-//     end
-//   end
+  //       if (((realtime_renamer_cycle + 1) % 64'(REALTIME_RENAMER_DUMP_PERIOD)) == 0) begin
+  //         realtime_renamer_dump_file(realtime_renamer_cycle + 1);
+  //       end
+  //     end
+  //   end
 
-// `endif
+  // `endif
 
 endmodule

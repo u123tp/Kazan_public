@@ -25,7 +25,10 @@ module CSRRF
     csr_plic_if.csr plic_port,
 
     // clint
-    csr_clint_if.csr clint_port
+    csr_clint_if.csr clint_port,
+
+    output csr_reg_u mcycle,
+    output csr_reg_u minstret
 );
 
   // 本体.
@@ -306,6 +309,24 @@ module CSRRF
   assign mscratch_val = csr_regs[internal_idx(MSCRATCH)];
 
  */
+
+  always_comb begin
+    mcycle   = get_read_mask(MCYCLE) & csr_regs[internal_idx(MCYCLE)];
+    minstret = get_read_mask(MINSTRET) & csr_regs[internal_idx(MINSTRET)];
+  end
+
+  // always_ff @(posedge clock) begin
+  //   if (!reset) begin
+  //     if (csr_regs[internal_idx(
+  //             MCYCLE
+  //         )] != 0 && csr_regs[internal_idx(
+  //             MCYCLE
+  //         )] % 1000_0000 == 0) begin
+  //       $display("[LOG][CSRRF.sv] IPC:%f", real'(csr_regs[internal_idx(MINSTRET
+  //                )]) / real'(csr_regs[internal_idx(MCYCLE)]));
+  //     end
+  //   end
+  // end
 
 endmodule
 

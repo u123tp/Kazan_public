@@ -152,13 +152,13 @@ module LSU
 
   // endfunction
 
-  // 性能調整用パラメータ.
-  // 各バンクごとのldq,stqのサイズ.
-  // 本当はLDQは8*4=32くらいほしいが,LUT喰うのでとりあえず4*4=16.
-  localparam int unsigned LDQ_BANK_SIZE = 4;
-  localparam int unsigned STQ_BANK_SIZE = 2;
-  // fenceqだけはバンク化しないので全体のサイズ.8以上にしないと壊れる?
-  localparam int unsigned FENCEQ_SIZE = 8;
+  // // 性能調整用パラメータ.
+  // // 各バンクごとのldq,stqのサイズ.
+  // // 本当はLDQは8*4=32くらいほしいが,LUT喰うのでとりあえず4*4=16.
+  // localparam int unsigned LDQ_BANK_SIZE = 4;
+  // localparam int unsigned STQ_BANK_SIZE = 2;
+  // // fenceqだけはバンク化しないので全体のサイズ.8以上にしないと壊れる?
+  // localparam int unsigned FENCEQ_SIZE = 8;
 
 
   localparam int unsigned BYTE_IN_DW_LSB = 0;

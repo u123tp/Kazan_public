@@ -59,7 +59,7 @@ module IntIssueQueue
 
   // バンクごとのiiqのサイズ.
   // 今は16なので全部で16*4=64個格納できるが,後で8に落とす
-  localparam int unsigned IIQ_SIZE = 4;
+  // localparam int unsigned IIQ_SIZE = 4;
   localparam int unsigned IIQ_IDX_WIDTH = $clog2(IIQ_SIZE);
 
   localparam int unsigned NUM_OF_LWT_SETS = 64;

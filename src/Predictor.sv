@@ -82,7 +82,7 @@ module Predictor
   localparam int unsigned BANK_IDX_MSB = BANK_IDX_LSB + BANK_IDX_WIDTH - 1;
 
   // 各バンクごとのサイズ.
-  localparam int unsigned PBHT_SIZE = 256;
+  localparam int unsigned PBHT_SIZE = 512;
   localparam int unsigned PBHT_IDX_WIDTH = $clog2(PBHT_SIZE);
   localparam int unsigned PBHT_IDX_LSB = BANK_IDX_MSB + 1;
   localparam int unsigned PBHT_IDX_MSB = PBHT_IDX_LSB + PBHT_IDX_WIDTH - 1;
@@ -175,7 +175,7 @@ module Predictor
     pbht_r_idx[0] = '{default: 0};
     prediction_bank_idx_to_instr_idx = '{default: 0};
     for (int unsigned i = 0; i < NUM_OF_FETCH; i++) begin
-      automatic logic [VADDR_WIDTH-1:0] op_vaddr = VADDR_WIDTH'(pc_in[i].vaddr + 4 * i);
+      automatic logic [VADDR_WIDTH-1:0] op_vaddr = pc_in[i].vaddr;
       pbht_r_idx[0][op_vaddr[BANK_IDX_MSB:BANK_IDX_LSB]] = op_vaddr[PBHT_IDX_MSB:PBHT_IDX_LSB];
       prediction_bank_idx_to_instr_idx[op_vaddr[BANK_IDX_MSB:BANK_IDX_LSB]] = BANK_IDX_WIDTH'(i);
     end

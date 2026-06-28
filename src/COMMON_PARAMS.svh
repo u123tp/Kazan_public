@@ -11,6 +11,8 @@
 // `define VERILATOR_COMPILE
 // `endif
 
+
+
 // -----------------------------------
 // デバッグ用パラメータ
 // -----------------------------------
@@ -86,6 +88,11 @@
 // `define CSRRFLOG_EN
 // `endif
 
+// パラメタでかくした場合. 
+`ifndef PRINT_IPC
+`define PRINT_IPC
+`endif
+
 package COMMON_PARAMS;
 
   localparam int unsigned CLK_HZ = 17_856_964;
@@ -129,7 +136,8 @@ package COMMON_PARAMS;
   // ----------------------------------------
 
   // Active Listのサイズ(=最大in flight数)
-  localparam int unsigned ACTIVELIST_SIZE = 8;
+  // localparam int unsigned ACTIVELIST_SIZE = 8;
+  localparam int unsigned ACTIVELIST_SIZE = 32;
 
 
   // 物理レジスタの数.
@@ -161,8 +169,12 @@ package COMMON_PARAMS;
   // --------------------------------------------------------------
   // Int Issue Queue
   // --------------------------------------------------------------
+  // iiq自体のサイズ.
+  // 実際のサイズはこれにNUM_OF_FETCHをかけたもの.
+  localparam int unsigned IIQ_SIZE = 8;
   // 発行数
-  localparam int unsigned NUM_OF_ARI_ISSUE = 1;
+  // localparam int unsigned NUM_OF_ARI_ISSUE = 1;
+  localparam int unsigned NUM_OF_ARI_ISSUE = 2;
   localparam int unsigned NUM_OF_DIV_ISSUE = 1;
 
   localparam int unsigned NUM_OF_CSR_ISSUE = 1;
@@ -194,6 +206,17 @@ package COMMON_PARAMS;
   // 実行ユニットの出力ポートの合計が最大のフィードバック数.
   localparam int unsigned NUM_OF_RESULT_FEEDBACKS = NUM_OF_ARI_EXE + NUM_OF_DIV_EXE + NUM_OF_LD_EXE + NUM_OF_ST_EXE +  NUM_OF_CSR_EXE;
 
+
+  // --------------------------------------------------------------=
+  // LSU
+  // --------------------------------------------------------------=
+  // 性能調整用パラメータ.
+  // 各バンクごとのldq,stqのサイズ.
+  // 本当はLDQは8*4=32くらいほしいが,LUT喰うのでとりあえず4*4=16.
+  localparam int unsigned LDQ_BANK_SIZE = 8;
+  localparam int unsigned STQ_BANK_SIZE = 8;
+  // fenceqだけはバンク化しないので全体のサイズ.8以上にしないと壊れる?
+  localparam int unsigned FENCEQ_SIZE = 8;
 
   // ------------------------------------------------------------------------------------------
   // pmp
@@ -264,6 +287,7 @@ package COMMON_PARAMS;
   // NUM_OF_REQ_TO_DTLB = 3
   localparam int unsigned NUM_OF_REQ_TO_DTLB = NUM_OF_DCACHE_CB_READ_REQ + NUM_OF_DCACHE_CB_WRITE_REQ;
   localparam int unsigned NUM_OF_RES_FROM_DTLB = NUM_OF_REQ_TO_DTLB;
+
 
 endpackage
 

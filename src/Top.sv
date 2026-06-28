@@ -413,8 +413,202 @@ module Top (
   // uartでの出力を抑制する.
   logic stall_from_uart_debug;
 
+`ifdef PRINT_IPC
+
+  // -------------------------------------------------------------------=
+  // stallしている時間の割合(Debug)
+  // -------------------------------------------------------------------=
+  csr_reg_u mcycle;
+  csr_reg_u minstret;
+
+  // 各stage自身が生成したstall
+  logic stall_out_from_pcbypass_local;
+  logic stall_out_from_icache_local;
+  logic stall_from_st2_to_st1_local;
+  logic stall_from_st3_to_st2_local;
+  logic stall_from_st4_to_st3_local;
+  logic stall_from_st5_to_st4_local;
+  logic stall_from_st6_to_st5_local;
+  logic stall_from_st7_to_st6_ldst_local;
+  logic stall_from_st7_to_st6_csr_local;
+  logic stall_from_st7_to_st6_div_local;
+  logic stall_from_st8_to_st7_ldst_local;
+  logic stall_from_st8_to_st7_div_local;
+  logic stall_from_st8_to_st7_csr_local;
+  logic stall_append_to_al_local;
+  logic stall_out_from_dcache_local;
 
 
+  always_comb begin
+    stall_out_from_pcbypass_local = stall_out_from_pcbypass && !stall_from_st3_to_st2;
+    stall_out_from_icache_local = stall_out_from_icache && !stall_from_st3_to_st2;
+
+    stall_from_st2_to_st1_local =
+        (stall_out_from_pcbypass || stall_out_from_icache) && !stall_from_st3_to_st2;
+
+    stall_from_st3_to_st2_local = stall_from_st3_to_st2 && !stall_from_st4_to_st3;
+
+    stall_from_st4_to_st3_local =
+        stall_from_st4_to_st3 && !(stall_from_st5_to_st4 || stall_append_to_al);
+
+    stall_from_st5_to_st4_local =
+        stall_from_st5_to_st4 && !(stall_from_st6_to_st5 || stall_append_to_al);
+
+    stall_from_st6_to_st5_local =
+        stall_from_st6_to_st5 &&
+        !(stall_from_st7_to_st6_ldst ||
+          stall_from_st7_to_st6_csr  ||
+          stall_from_st7_to_st6_div);
+
+    stall_from_st7_to_st6_ldst_local = stall_from_st7_to_st6_ldst && !stall_from_st8_to_st7_ldst;
+
+    stall_from_st7_to_st6_csr_local = stall_from_st7_to_st6_csr && !stall_from_st8_to_st7_csr;
+
+    stall_from_st7_to_st6_div_local = stall_from_st7_to_st6_div && !stall_from_st8_to_st7_div;
+
+    stall_from_st8_to_st7_ldst_local = stall_from_st8_to_st7_ldst;
+    stall_from_st8_to_st7_div_local = stall_from_st8_to_st7_div;
+    stall_from_st8_to_st7_csr_local = stall_from_st8_to_st7_csr;
+
+    stall_append_to_al_local = stall_append_to_al;
+
+    stall_out_from_dcache_local = stall_out_from_dcache;
+    stall_out_from_icache_local = stall_out_from_icache;
+  end
+
+  logic [XLEN-1:0] stall_out_from_pcbypass_local_counter;
+  logic [XLEN-1:0] stall_out_from_icache_local_counter;
+  logic [XLEN-1:0] stall_from_st2_to_st1_local_counter;
+  logic [XLEN-1:0] stall_from_st3_to_st2_local_counter;
+  logic [XLEN-1:0] stall_from_st4_to_st3_local_counter;
+  logic [XLEN-1:0] stall_from_st5_to_st4_local_counter;
+  logic [XLEN-1:0] stall_from_st6_to_st5_local_counter;
+  logic [XLEN-1:0] stall_from_st7_to_st6_ldst_local_counter;
+  logic [XLEN-1:0] stall_from_st7_to_st6_csr_local_counter;
+  logic [XLEN-1:0] stall_from_st7_to_st6_div_local_counter;
+  logic [XLEN-1:0] stall_from_st8_to_st7_ldst_local_counter;
+  logic [XLEN-1:0] stall_from_st8_to_st7_div_local_counter;
+  logic [XLEN-1:0] stall_from_st8_to_st7_csr_local_counter;
+  logic [XLEN-1:0] stall_append_to_al_local_counter;
+  logic [XLEN-1:0] stall_out_from_dcache_local_counter;
+
+  task automatic display_ratio_real(input string name, input logic [XLEN-1:0] counter);
+    real ratio;
+    begin
+      if (mcycle != 0) begin
+        ratio = $itor(counter) / $itor(mcycle);
+      end else begin
+        ratio = 0.0;
+      end
+
+      $display("  %-32s count=%0d ratio=%0f", name, counter, ratio);
+    end
+  endtask
+
+  real ipc_real;
+
+  always_comb begin
+    if (mcycle != 0) begin
+      ipc_real = $itor(minstret) / $itor(mcycle);
+    end else begin
+      ipc_real = 0.0;
+    end
+  end
+
+  always_ff @(posedge cpu_clock) begin
+    if (cpu_reset) begin
+      stall_out_from_pcbypass_local_counter    <= '0;
+      stall_out_from_icache_local_counter      <= '0;
+      stall_from_st2_to_st1_local_counter      <= '0;
+      stall_from_st3_to_st2_local_counter      <= '0;
+      stall_from_st4_to_st3_local_counter      <= '0;
+      stall_from_st5_to_st4_local_counter      <= '0;
+      stall_from_st6_to_st5_local_counter      <= '0;
+      stall_from_st7_to_st6_ldst_local_counter <= '0;
+      stall_from_st7_to_st6_csr_local_counter  <= '0;
+      stall_from_st7_to_st6_div_local_counter  <= '0;
+      stall_from_st8_to_st7_ldst_local_counter <= '0;
+      stall_from_st8_to_st7_div_local_counter  <= '0;
+      stall_from_st8_to_st7_csr_local_counter  <= '0;
+      stall_append_to_al_local_counter         <= '0;
+      stall_out_from_dcache_local_counter      <= '0;
+
+    end else begin
+      stall_out_from_pcbypass_local_counter <=
+          stall_out_from_pcbypass_local_counter + XLEN'(stall_out_from_pcbypass_local);
+
+      stall_out_from_icache_local_counter <=
+          stall_out_from_icache_local_counter + XLEN'(stall_out_from_icache_local);
+
+      stall_from_st2_to_st1_local_counter <=
+          stall_from_st2_to_st1_local_counter + XLEN'(stall_from_st2_to_st1_local);
+
+      stall_from_st3_to_st2_local_counter <=
+          stall_from_st3_to_st2_local_counter + XLEN'(stall_from_st3_to_st2_local);
+
+      stall_from_st4_to_st3_local_counter <=
+          stall_from_st4_to_st3_local_counter + XLEN'(stall_from_st4_to_st3_local);
+
+      stall_from_st5_to_st4_local_counter <=
+          stall_from_st5_to_st4_local_counter + XLEN'(stall_from_st5_to_st4_local);
+
+      stall_from_st6_to_st5_local_counter <=
+          stall_from_st6_to_st5_local_counter + XLEN'(stall_from_st6_to_st5_local);
+
+      stall_from_st7_to_st6_ldst_local_counter <=
+          stall_from_st7_to_st6_ldst_local_counter + XLEN'(stall_from_st7_to_st6_ldst_local);
+
+      stall_from_st7_to_st6_csr_local_counter <=
+          stall_from_st7_to_st6_csr_local_counter + XLEN'(stall_from_st7_to_st6_csr_local);
+
+      stall_from_st7_to_st6_div_local_counter <=
+          stall_from_st7_to_st6_div_local_counter + XLEN'(stall_from_st7_to_st6_div_local);
+
+      stall_from_st8_to_st7_ldst_local_counter <=
+          stall_from_st8_to_st7_ldst_local_counter + XLEN'(stall_from_st8_to_st7_ldst_local);
+
+      stall_from_st8_to_st7_div_local_counter <=
+          stall_from_st8_to_st7_div_local_counter + XLEN'(stall_from_st8_to_st7_div_local);
+
+      stall_from_st8_to_st7_csr_local_counter <=
+          stall_from_st8_to_st7_csr_local_counter + XLEN'(stall_from_st8_to_st7_csr_local);
+
+      stall_append_to_al_local_counter <=
+          stall_append_to_al_local_counter + XLEN'(stall_append_to_al_local);
+
+      stall_out_from_dcache_local_counter <=
+          stall_out_from_dcache_local_counter + XLEN'(stall_out_from_dcache_local);
+
+
+      if ((mcycle != 0) && ((mcycle % 64'd1000_0000) == 0)) begin
+        $display("============================================================");
+        $display("[LOCAL_STALL_COUNTER] mcycle=%0d minstret=%0d ipc=%0f", mcycle, minstret,
+                 ipc_real);
+        $display("------------------------------------------------------------");
+
+        display_ratio_real("st2_pcbypass_local", stall_out_from_pcbypass_local_counter);
+        display_ratio_real("st2_icache_local", stall_out_from_icache_local_counter);
+        display_ratio_real("st2_to_st1_local", stall_from_st2_to_st1_local_counter);
+        display_ratio_real("st3_to_st2_local", stall_from_st3_to_st2_local_counter);
+        display_ratio_real("st4_to_st3_local", stall_from_st4_to_st3_local_counter);
+        display_ratio_real("st5_to_st4_local", stall_from_st5_to_st4_local_counter);
+        display_ratio_real("st6_to_st5_local", stall_from_st6_to_st5_local_counter);
+        display_ratio_real("st7_to_st6_ldst_local", stall_from_st7_to_st6_ldst_local_counter);
+        display_ratio_real("st7_to_st6_csr_local", stall_from_st7_to_st6_csr_local_counter);
+        display_ratio_real("st7_to_st6_div_local", stall_from_st7_to_st6_div_local_counter);
+        display_ratio_real("st8_to_st7_ldst_local", stall_from_st8_to_st7_ldst_local_counter);
+        display_ratio_real("st8_to_st7_div_local", stall_from_st8_to_st7_div_local_counter);
+        display_ratio_real("st8_to_st7_csr_local", stall_from_st8_to_st7_csr_local_counter);
+        display_ratio_real("append_to_al_local", stall_append_to_al_local_counter);
+        display_ratio_real("dcache_local", stall_out_from_dcache_local_counter);
+        display_ratio_real("dcache_local", stall_out_from_icache_local_counter);
+
+        $display("============================================================");
+      end
+    end
+  end
+
+`endif
   // ----------------------------------------------------------------------
   // flush
   // ----------------------------------------------------------------------
@@ -896,7 +1090,9 @@ module Top (
       .csru_port(csr_csru_port),
       .satp_out(satp),
       .plic_port(csr_plic_port),
-      .clint_port(csr_clint_port)
+      .clint_port(csr_clint_port),
+      .mcycle(mcycle),
+      .minstret(minstret)
   );
 
   // -------------------------------------------------------------------------
